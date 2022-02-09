@@ -110,7 +110,6 @@ const Yamde = ({ value, handler, toolbar }: Omit<Props, 'theme'>) => {
             name="yamdeContent"
             value={value}
             onChange={(e) => handleChange(e)}
-            required
             ref={textEditor}
           />
         ) : (
